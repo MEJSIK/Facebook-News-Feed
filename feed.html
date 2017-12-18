@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook News Feed v1.0</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="Bartłomiej Walasik MEJS">
+    <script src="js/angular.min.js"></script>
+    <script src="js/feed.js"></script>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <div ng-app="facebookFeed" ng-controller="facebookFeedControler">
+        <ul>
+            <li ng-repeat="post in posts">
+                <div class="post">
+                    <div class="post__header">
+                        <div class="post__header_c">
+                            <img class="avatar" src="img/page_avatar.jpg" alt="avatar">
+                            <div class="post__header--user">
+                                <div><strong>[YOUR-PAGE-NAME]</strong></div>
+                                <div><span class="post__createtime">Published: {{post.created_time}}</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post__body">
+                        <div class="post__body--c">
+                            <p class="post__body--content">
+                                {{post.message}}
+                            </p>
+                        </div>
+                        <div class="post__body--like"><img src="img/like.png" alt="" class="like"> {{post.likes.summary.total_count}}
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

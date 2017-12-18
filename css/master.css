@@ -1,0 +1,55 @@
+html {
+    font-family: 'Tahoma', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffdf89;
+}
+.post {
+    width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.post__header {
+    background: #3b5998;
+    box-shadow: 0px 2px 5px #717171;
+    color: #fff;
+}
+.post__header_c {
+    display: flex;
+    padding: 5px;
+}
+.post__createtime {
+    font-size: 0.7em;
+}
+.post__header--user {
+    display: block;
+}
+.post__body--c {
+    padding: 0 15px;
+}
+.post__body--like {
+    padding: 0;
+    margin: 0;
+    background: #dfe3ee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+img.avatar {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+img.like {
+    width: 15px;
+    height: 15px;
+    margin: 5px
+}
+li {
+    list-style: none;
+}
