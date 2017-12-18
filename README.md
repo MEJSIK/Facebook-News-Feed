@@ -3,7 +3,7 @@ Script using GRAPH API to GET information about each post from any facebook page
 
 
 <strong>This how it's looks like:</strong></br></br>
-<img src="http://s8910.chomikuj.pl/ChomikImage.aspx?e=GISFwLwraZPllEXg95h3mcfx_BDF3Zloge6eiyLfkJaBKzACvsJKekxPkvO2W_1KVLFKauP6jr26G8Wzzsinle9aRauW72fzhtdbEA1D52A&pv=2" />
+<img src="http://s6808.chomikuj.pl/ChomikImage.aspx?e=1Ff4cWKWea7-RQTyondeegaD_xbqjaoOfVt3RtmF7CfN5p6oOK6uwuzXSeeqmW2etEwZJMnATO2A0-x_sNNhEW08ecOunPFi5__Oq9cNSHY&pv=2" />
 
 
 I used angular.js and Facebook Graph API.</br></br>
