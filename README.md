@@ -26,4 +26,4 @@ app.controller('facebookFeedControler', function ($scope, $http) {
 <strong>NOTE:</strong>To get into any data use '{}' ex. {{post.message}} in HTML file.
 
 
-<strong>NOTE:</strong> You just need pageID and access token. In near future I will upgrade to show all reactions and comments with reactions.
+<strong>NOTE:</strong> You just need pageID and access token. <strong>In near future I will upgrade to show all reactions and comments with reactions.</strong>
