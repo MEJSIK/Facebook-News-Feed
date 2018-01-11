@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
-
+<!--https://www.w3schools.com/code/tryit.asp?filename=FNCY77L531NZ-->
 <head>
     <meta charset="UTF-8">
     <title>Facebook News Feed</title>
@@ -29,24 +29,28 @@
                     </div>
                     <div class="post__body">
                         <div class="post__body--c">
-                            <p class="post__body--content">
-                              {{msg = post.message}}
-                              
-                              </br>
-                            </p>
-                            <a href="http://facebook.com/{{post.id}}">
-                            <img style="max-width: 100%;" src="{{post.full_picture}}" alt=""></a>
-                        </div>
-                        <div class="post__body--like"><img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Facebook_like_thumb.png" alt="" class="like"> Lubi to: {{post.likes.summary.total_count}} osób
+                            <p class="post__body--content" ng-pattern="regex;regexp" ng-init="con=post.message;res=con.match(regex);link=res.match(regexp)">
+                                {{con.replace(res,"")}} {{res.replace(link,"ff")}} 
+                                            <span ng-pattern="regexp" ng-init="">
+                                                <a href="">
+                                                
+                                                </a>
+                                                
+                                            </span>
+                                    </br>
+                                    </p>
+                                    <a target="_blank" href="http://facebook.com/{{post.id}}">
+                                        <img style="max-width: 100%;" src="{{post.full_picture}}" alt=""></a>
+                                </div>
+                                <div class="post__body--like"><img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Facebook_like_thumb.png" alt="" class="like"> Lubi to: {{post.likes.summary.total_count}} osób
+                                </div>
+
+                            </div>
 
                         </div>
-
-                    </div>
-
-                </div>
             </li>
         </ul>
-    </div>
+        </div>
 
 
 </body>
