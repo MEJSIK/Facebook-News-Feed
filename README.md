@@ -5,6 +5,10 @@ Script using GRAPH API to GET information about each post from any facebook page
 <strong>This how it's looks like:</strong></br></br>
 <img src="https://github.com/MEJSIK/Facebook-News-Feed/blob/master/demo.jpg" />
 
+<strong>v2.1</strong>
+<ul>
+    <li>Added Regular Expression to GET link adress(ex.youtube)</li>
+</ul>
 
 I used angular.js and Facebook Graph API.</br></br>
 
