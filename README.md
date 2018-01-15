@@ -7,6 +7,12 @@ Script using GRAPH API to GET information about each post from any facebook page
 <strong>This how it's looks like:</strong></br></br>
 <img src="https://github.com/MEJSIK/Facebook-News-Feed/blob/master/demo.jpg" />
 
+
+<strong>v2.2</strong>
+<ul>
+    <li>Added AJAX HTTP Request which shows dynamicly your page feed</li>
+</ul>
+
 <strong>v2.1</strong>
 <ul>
     <li>Added Regular Expression to GET link adress(ex.youtube)</li>
